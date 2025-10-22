@@ -10,4 +10,4 @@ SELECT
     ciudad
 FROM pacientes;
 
-SELECT * FROM edad_pacientes
+SELECT * FROM edad_pacientes;
