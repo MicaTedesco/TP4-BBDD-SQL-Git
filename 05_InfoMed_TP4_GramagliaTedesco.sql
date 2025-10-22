@@ -6,7 +6,7 @@ WHEN LOWER(SUBSTRING(trim(ciudad),1,1)) = 'b' THEN 'Buenos Aires'
 WHEN LOWER(SUBSTRING(trim(ciudad),1,1)) = 'c' THEN 'Cordoba'
 ELSE 'Mendoza'
 END AS ciudades_corregidas
-FROM pacientes
+FROM pacientes;
 
 #OPCIÓN 2
 UPDATE pacientes SET ciudad = CASE
