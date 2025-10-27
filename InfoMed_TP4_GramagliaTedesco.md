@@ -56,14 +56,14 @@ SELECT * FROM edad_pacientes;
 ```
 UPDATE pacientes SET calle = 'Calle Corrientes', numero = 500, ciudad = 'Buenos Aires' WHERE nombre = 'Luciana Gómez';
 ```
-![Output Punto 3a](imagenes/punto3a.png)
-![Output Punto 3b](imagenes/punto3b.png)
+![Output Punto 3a](imagenes/punto3.a.png)
+![Output Punto 3b](imagenes/punto3.b.png)
 ### 4. Seleccionar el nombre y la matrícula de cada médico cuya especialidad sea identificada por el id 4.
 ```
 SELECT nombre AS nombre_medico, matricula FROM medicos WHERE especialidad_id = 4;
 ```
-![Output Punto 4a](imagenes/punto4a.png)
-![Output Punto 4b](imagenes/punto4b.png)
+![Output Punto 4a](imagenes/punto4.a.png)
+![Output Punto 4b](imagenes/punto4.b.png)
 ### 5.  Puede pasar que haya inconsistencias en la forma en la que están escritos los nombres de las ciudades, ¿cómo se corrige esto? Agregar la query correspondiente.
 ```
 #OPCIÓN 1
@@ -76,7 +76,7 @@ ELSE 'Mendoza'
 END AS ciudades_corregidas
 FROM pacientes;
 ```
-![Output Punto 5a](imagenes/punto5a.png)
+![Output Punto 5a](imagenes/punto5.a.png)
 ```
 #OPCIÓN 2
 UPDATE pacientes SET ciudad = CASE
@@ -87,7 +87,7 @@ WHEN LOWER(SUBSTRING(trim(ciudad),1,1)) = 'c' THEN 'Cordoba'
 ELSE 'Mendoza'
 END;
 ```
-![Output Punto 5b](imagenes/punto5b.png)
+![Output Punto 5b](imagenes/punto5.b.png)
 ### 6.  Obtener el nombre y la dirección de los pacientes que viven en Buenos Aires.
 ```
 SELECT nombre AS nombre_paciente, numero, calle FROM pacientes WHERE ciudad = 'Buenos Aires'
