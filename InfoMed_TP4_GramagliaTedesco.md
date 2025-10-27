@@ -14,13 +14,12 @@ Es una base de datos relacional en cuanto a estructura y transaccional en cuanto
 
 ### 2. Planteando el Modelo conceptual, armar el diagrama entidad-relación de la base de datos dada. (Usar notación de Chen, marcando tipo de participación, cardinalidad, claves primarias y parciales).
 
-<img src="imágenes/helisulbaranBD02.png" alt="ejemplo_modelo-ER" style="width:500px;"/>
-
+![modelo-ER](imagenes/ejemplo_modelo-ER.png)
 
 
 ### 3. Mapear del Modelo conceptual planteado en el punto 2 al Modelo Relacional la base de datos dada. (Usar notación Crow’s foot en el diagrama).
 
-![modelo_relacional](imágenes/modelo_relacional.png)
+![modelo_relacional](imagenes/modelo_relacional.png)
 
 ### 4. ¿Considera que la base de datos está normalizada? En caso que no lo esté, ¿cómo podría hacerlo?
 
