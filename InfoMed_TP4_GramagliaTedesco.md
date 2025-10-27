@@ -14,8 +14,12 @@ Es una base de datos relacional en cuanto a estructura y transaccional en cuanto
 
 ### 2. Planteando el Modelo conceptual, armar el diagrama entidad-relación de la base de datos dada. (Usar notación de Chen, marcando tipo de participación, cardinalidad, claves primarias y parciales).
 
+<<<<<<< HEAD
 ![imagenDER](imagenes/imagenDER.png)
 
+=======
+![modelo-ER](imagenes/ejemplo_modelo-ER.png)
+>>>>>>> ace8d7465dc944b5be222ead328f1418c1fbd979
 
 
 ### 3. Mapear del Modelo conceptual planteado en el punto 2 al Modelo Relacional la base de datos dada. (Usar notación Crow’s foot en el diagrama).
@@ -23,8 +27,8 @@ Es una base de datos relacional en cuanto a estructura y transaccional en cuanto
 ![modelo_relacional](imagenes/modelo_relacional.png)
 
 ### 4. ¿Considera que la base de datos está normalizada? En caso que no lo esté, ¿cómo podría hacerlo?
+La base de datos propuesta no está normalizada, pues la dirección por ejemplo es un atributo que se puede repetir o introducir mal. Para corregir esto se podría crear una tabla de direcciones con clave primaria direcciónId por ejemplo y médico y paciente tendrían una Foreign Key a direcciónId. De esta forma se evitaría datos repetidos y mejoraría la integridad
 
-Respuesta
 
 ## **PARTE 2:** SQL
 
