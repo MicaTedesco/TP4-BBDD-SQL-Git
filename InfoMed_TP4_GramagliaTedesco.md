@@ -33,6 +33,8 @@ SELECT ciudad, COUNT(id_paciente) AS cantidad_pacientes
 FROM pacientes
 GROUP BY ciudad;
 ```
+<image-card alt="Output Punto 1" src="imagenes/punto1.png" ></image-card>
+
 ### 2. Se tiene la fecha de nacimiento de los pacientes. Se desea calcular la edad de los pacientes y almacenarla de forma dinámica en el sistema ya que es un valor típicamente consultado, junto con otra información relevante del paciente.
 ```
 CREATE OR REPLACE VIEW edad_pacientes AS
