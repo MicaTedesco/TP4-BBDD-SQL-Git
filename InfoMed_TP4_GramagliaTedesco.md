@@ -8,11 +8,15 @@
 
 ### 1. ¿Qué tipo de base de datos es? Clasificarla según estructura y función.
 
-Respuesta
+Es una base de datos relacional en cuanto a estructura y transaccional en cuanto a función.
+
+
 
 ### 2. Planteando el Modelo conceptual, armar el diagrama entidad-relación de la base de datos dada. (Usar notación de Chen, marcando tipo de participación, cardinalidad, claves primarias y parciales).
 
 <img src="imágenes/helisulbaranBD02.png" alt="ejemplo_modelo-ER" style="width:500px;"/>
+
+
 
 ### 3. Mapear del Modelo conceptual planteado en el punto 2 al Modelo Relacional la base de datos dada. (Usar notación Crow’s foot en el diagrama).
 
